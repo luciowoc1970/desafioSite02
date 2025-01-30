@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Berkshire+Swash&family=Kaushan+Script&display=swap');
+    
+    body {
+        font-family: "Berkshire Swash", serif; 
+                /*Medidas absolutas : cm, mm, in (polegadas), px, pt, pc (paca) 
+        Medidas Relativas :  em, ex, rem, vw, vh, %
+        16 px equivale a 1em */
+        font-size: 1em;
+        /* weight = peso, widht = largura, height = altura*/
+        font-weight: normal;
+        /* lighter normal bold bolder */
+        font-style: normal;
+        text-decoration: double;
+    }   
+    h1{
+        /* font-family: 'Work Sans', sans-serif ; 
+        font-weight: bolder;
+        font-size: 2em;
+        font-style: italic;*/
+        /* shorthand = mãozinha 
+        shorthand font (nesta ordem)
+        - font-style -> font-weight -> font-size -> font-family*/
+
+        font: italic bold 3em 'Work Sans', sans-serif ;
+        
+    }
+
+</style>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odit ab eligendi consequuntur nihil obcaecati accusamus totam autem? Tenetur molestias quaerat, animi quod magni ullam ad ex consectetur reiciendis quidem.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ipsa quisquam iste eum? Cumque sint ab ipsam omnis eos laborum tenetur accusamus quae, molestiae ducimus voluptate, unde non architecto temporibus?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quo magnam et iure vel porro natus unde voluptatibus dicta, officia at est omnis, ut odio. Animi aut ex sint at.</p>
+</body>
+</html>
