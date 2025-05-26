@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Site de Teste</title>
 <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        table {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgrey;
+                
+    }
+    table {
             border-collapse: collapse;
         }
         caption {
@@ -23,18 +25,20 @@
         tr:nth-child(even) {
             background-color: rgb(228, 228, 228);
         }
+        tr:nth-child(odd) {
+            background-color: white;
+        }
         /** overflow-x serve para fazer uma barra de rolagem**/
         div#container {
             overflow-x: auto;
         }
-    </style>
+</style>
 </head>
 
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quod porro provident. Sed, rem ex laborum magni nihil dolorum nemo quibusdam ipsam, culpa tempora dolor expedita voluptate? Molestias, et eaque.</p>
-    <div id="container">
-        <table>
+    <H1>Isto é um TESTE!</H1>
+</body>
+    <table>
             <caption>Tabelas responsivas</caption>
             <thead>
                 <tr>
@@ -147,7 +151,4 @@
             </tbody>
         
         </table>
-    </div>
-    
-</body>
 </html>
